@@ -1,0 +1,86 @@
+/* Reseteo de márgenes y padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif; 
+    color: #1f1d23;
+    background-color: #E0E1DD; 
+}
+
+/* header */
+header {
+    background-color: #ffffff; 
+}
+
+.logo-img {
+    width: 100px; 
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+    color: #0D1B2A; 
+}
+
+.navbar-nav .nav-link {
+    color: #0D1B2A; 
+}
+
+/* sección */
+.introduccion {
+    background-color: #E0E1DD; 
+    color: #1B263B;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.introduccion h2 {
+    color: #0b090a;
+    margin-bottom: 20px;
+}
+
+.introduccion img {
+    width: 100%; /* Ancho completo en móviles */
+    border-radius: 10px;
+}
+
+/* botones */
+.btn-primary {
+    background-color: #003049;
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #669BBC;
+    border-color: #000000;
+}
+
+/* footer */
+footer {
+    background-color: #780000;
+    color: #E0E1DD; 
+    padding: 10px;
+}
+
+/* Media query mobile */
+@media (max-width: 768px) {
+    .logo-img {
+        width: 30px; 
+    }
+
+    .introduccion img {
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .catalog-img {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+
+
+}
